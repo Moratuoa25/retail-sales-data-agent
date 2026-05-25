@@ -10,6 +10,7 @@ business questions about a retail sales dataset.
 ## Tools Used
 - Databricks (Genie Spaces)
 - Python (PySpark)
+- SQL (%sql in Databricks notebooks)
 - GitHub
 
 ## Dataset
@@ -19,22 +20,30 @@ Product Category, Quantity, Price per Unit, Total Amount
 
 ## Steps Followed
 1. Uploaded dataset to Databricks
-2. Reviewed columns and data types
+2. Reviewed columns and data types using Python
 3. Prepared table with column descriptions
 4. Created Genie Space Data Agent
 5. Wrote original agent instructions
 6. Tested with 10 business questions
 7. Validated 3 answers against source data
-8. Compiled Word document write-up
+8. Ran SQL queries to analyse the data
+9. Compiled Word document write-up
+
+## SQL Queries Run
+- Sales by product category
+- Transactions and spending by gender
+- Monthly revenue top 5 months
 
 ## Key Insights
 - Total revenue: $456,000
 - Top category: Electronics ($156,905)
 - Best month: May 2023 ($53,150)
 - Average customer age: 41.4 years
+- Female customers: 510 transactions
 - Customers under 35 spend more per transaction
 
 ## Conclusion
 All three validated answers were 100% accurate.
 The agent successfully answered complex business
 questions with detailed explanations and recommendations.
+Both Python and SQL were used throughout the project.
